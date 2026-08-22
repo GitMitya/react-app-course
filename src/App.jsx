@@ -3,7 +3,7 @@ import './App.css'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import { Button } from './Button'
+import { Button } from './components/Button/Button'
 
 function App() {
 	const [count, setCount] = useState(0)
