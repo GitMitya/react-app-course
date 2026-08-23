@@ -3,12 +3,11 @@ import { Counter } from './Counter'
 import List from './List.jsx'
 
 function App() {
-
 	return (
 		<>
 			<section id='center'>
 				<Counter />
-				<List/>
+				<List />
 			</section>
 		</>
 	)

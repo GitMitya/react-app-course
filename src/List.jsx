@@ -2,18 +2,18 @@ const items = [
 	{
 		task: 'Task 1',
 		icon: '🍏',
-		isCompleted: false
+		isCompleted: false,
 	},
 	{
 		task: 'Task 2',
 		icon: '👌',
-		isCompleted: true
+		isCompleted: true,
 	},
 	{
 		task: 'Task 3',
 		icon: '🎶',
-		isCompleted: false
-	}
+		isCompleted: false,
+	},
 ]
 
 const List = () => {
@@ -24,7 +24,6 @@ const List = () => {
 					<section key={index}>
 						<span>{item.task}</span>
 						<span>{item.icon}</span>
-						<span>{item.isCompleted ? '✅' : '❌'}</span>
 					</section>
 				)
 			})}
