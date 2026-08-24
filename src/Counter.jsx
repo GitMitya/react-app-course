@@ -5,7 +5,7 @@ export const Counter = () => {
 	let [count, setCount] = useState(0)
 
 	const setCounterHandler = () => {
-		setCount(prevCount => prevCount + 1)
+		setCount((prevCount) => prevCount + 1)
 	}
 
 	return (

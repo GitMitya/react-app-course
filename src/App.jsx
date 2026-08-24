@@ -5,7 +5,7 @@ import List from './List.jsx'
 function App() {
 	return (
 		<>
-			<section id='center'>
+			<section id="center">
 				<Counter />
 				<List />
 			</section>
