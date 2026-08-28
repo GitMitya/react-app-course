@@ -1,16 +1,7 @@
-import './App.css'
-import { Counter } from './Counter'
-import List from './List.jsx'
+import { MainLayout } from './components/MainLayout'
 
 function App() {
-	return (
-		<>
-			<section id="center">
-				<Counter />
-				<List />
-			</section>
-		</>
-	)
+	return <MainLayout />
 }
 
 export default App
