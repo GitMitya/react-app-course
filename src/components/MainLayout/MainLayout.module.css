@@ -15,7 +15,7 @@
 	align-items: stretch;
 	flex-grow: 1;
 	gap: 20px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .main {
