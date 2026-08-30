@@ -10,8 +10,8 @@ export const Header = () => {
 				<span>React Cards</span>
 			</p>
 			<div className={cls.headerButtons}>
-				<Button title="Add" />
-				<Button title="Login" />
+				<Button isActive>Add</Button>
+				<Button>Login</Button>
 			</div>
 		</header>
 	)

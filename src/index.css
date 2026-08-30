@@ -1,7 +1,10 @@
 :root {
 	--main-bg-color: #23272f;
 
-	--text-color: #ffffff;
+	--text-color: #fff;
+
+	--btn-bg-color: #383b3f;
+	--btn-text-color: #fff;
 
 	font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
 	line-height: 1.5;
@@ -33,14 +36,20 @@ a {
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--main-bg-color: #ffffff;
+		--main-bg-color: #fff;
 		--text-color: #000000;
+
+		--btn-bg-color: #16444f;
+		--btn-text-color: #57c4dc;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--main-bg-color: #23272f;
-		--text-color: #ffffff;
+		--text-color: #fff;
+
+		--btn-bg-color: #383b3f;
+		--btn-text-color: #fff;
 	}
 }
