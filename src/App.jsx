@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { MainLayout } from './components/MainLayout/MainLayout'
+import { MainLayout } from './components/MainLayout'
+import { HomePage } from './pages/HomePage'
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
 				<Route element={<MainLayout />}>
-					<Route path="/" element={<div>Home Content</div>} />
+					<Route path="/" element={<HomePage />} />
 					<Route path="/forbidden" element={<div>Forbidden Content</div>} />
 					<Route path="/addquestion" element={<div>Add Question Content</div>} />
 				</Route>
