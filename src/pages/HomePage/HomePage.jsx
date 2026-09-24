@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { QuestionCard } from '../../components/QuestionCard'
+import { QuestionCardList } from '../../components/QuestionCardList'
 import { API_URL } from '../../constants'
 
 export const HomePage = () => {
@@ -24,9 +24,7 @@ export const HomePage = () => {
 
 	return (
 		<>
-			{questions.map((question, index) => {
-				return <QuestionCard key={index} card={question} />
-			})}
+			<QuestionCardList cards={questions} />
 		</>
 	)
 }
