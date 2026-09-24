@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Loader } from '../../components/Loader/Loader'
 import { QuestionCardList } from '../../components/QuestionCardList'
 import { API_URL } from '../../constants'
 
@@ -24,6 +25,7 @@ export const HomePage = () => {
 
 	return (
 		<>
+			<Loader />
 			<QuestionCardList cards={questions} />
 		</>
 	)
